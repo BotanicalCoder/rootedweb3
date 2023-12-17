@@ -1,0 +1,20 @@
+<svg width="456" height="332" viewBox="0 0 456 332" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_1_736)">
+<mask id="mask0_1_736" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="456" height="332">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M456 22C456 9.84974 446.15 0 434 0H169C156.85 0 147 9.84974 147 22V75C147 87.1503 137.15 97 125 97H22C9.84974 97 0 106.85 0 119V310C0 322.15 9.84973 332 22 332H384C396.15 332 406 322.15 406 310V215C406 202.85 415.85 193 428 193H434C446.15 193 456 183.15 456 171V22Z" fill="#031B15"/>
+</mask>
+<g mask="url(#mask0_1_736)">
+<rect x="-73" y="-19.9219" width="529" height="352.843" fill="url(#pattern0)" fill-opacity="0.9"/>
+<rect x="-73" y="-19.9219" width="529" height="352.843" fill="#020F0C" fill-opacity="0.3"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_736" transform="scale(0.001 0.00149925)"/>
+</pattern>
+<clipPath id="clip0_1_736">
+<rect width="456" height="332" fill="white"/>
+</clipPath>
+<img id="image0_1_736" width="1000" height="667" sr="./man-using-digital-tablet.jpg" />
+</defs>
+</svg>
