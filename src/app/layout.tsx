@@ -1,11 +1,11 @@
-import "./globals.css";
-import type { Metadata } from "next";
-import Navbar from "./components/navbar";
-import { workSans } from "./fonts";
+import './globals.css';
+import type { Metadata } from 'next';
+import Navbar from './components/navbar';
+import { workSans } from './fonts';
 
 export const metadata: Metadata = {
-  title: "Rooted",
-  description: "Your one stop shop for everything Web 3",
+  title: 'Rooted',
+  description: 'Your one stop shop for everything Web 3',
 };
 
 export default function RootLayout({

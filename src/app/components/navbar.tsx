@@ -1,25 +1,26 @@
-"use client";
-import Link from "next/link";
-import { navElements } from "../constants/nav-elements";
-import { gravitasOne } from "../fonts";
-import { FaBars } from "react-icons/fa";
-import { MdClose } from "react-icons/md";
-import CustomButton from "./button-container";
-import { useState } from "react";
-import useNav from "../hooks/useNav";
-import { motion } from "framer-motion";
+'use client';
+import Link from 'next/link';
+import { navElements } from '../constants/nav-elements';
+import { gravitasOne } from '../fonts';
+import { FaBars } from 'react-icons/fa';
+import { MdClose } from 'react-icons/md';
+import CustomButton from './button-container';
+import { useState } from 'react';
+import useNav from '../hooks/useNav';
+import { motion } from 'framer-motion';
+import { useRouter } from 'next/router';
 
 const variants = {
   open: {
     opacity: 1,
-    display: "flex",
+    display: 'flex',
   },
   closed: {
     opacity: 0,
     transition: {
       delayChildren: 0.8,
     },
-    display: "none",
+    display: 'none',
   },
 };
 
@@ -93,7 +94,7 @@ function Navbar() {
       </div>
 
       <motion.nav
-        animate={isOpen ? "open" : "closed"}
+        animate={isOpen ? 'open' : 'closed'}
         variants={variants}
         className="absolute opacity-0 top-16 z-10 flex flex-col justify-between items-center gap-4 lg:hidden bg-rootedpurple h-[92vh] w-screen p-14"
       >
@@ -113,7 +114,7 @@ function Navbar() {
         <div className="flex flex-col items-center gap-4">
           <motion.div variants={linkVariants}>
             <button className="text-justify text-lg text-secondary">
-              Log In
+              Log in
             </button>
           </motion.div>
 
